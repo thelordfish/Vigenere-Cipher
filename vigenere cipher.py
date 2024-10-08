@@ -9,8 +9,8 @@ for n in key:
     numkey.append(alphabet.find(n))
 
 print(numkey)
-input()
-counter = 0
+#input()
+#counter = 0
 for l in plaintext:
 #if it's a space, dont increment the counter and continue
     if l == " ":
