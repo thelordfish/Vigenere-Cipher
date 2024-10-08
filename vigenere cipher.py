@@ -6,8 +6,8 @@ encryption =""
 for n in key:
     numkey.append(alphabet.find(n))
 
-print(numkey)
-input()
+# print(numkey)
+# input()
 counter = 0
 for l in plaintext:
     if l == " ":
