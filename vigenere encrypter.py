@@ -4,7 +4,7 @@ alphabet = "abcdefghijklmnopqrstuvwxyz"
 numkey = []
 encryption =""
 
-#turn the key into it's numbers in the alphabet
+#turn the key into its numbers in the alphabet
 for n in key:
     numkey.append(alphabet.find(n))
 
@@ -12,7 +12,7 @@ print(numkey)
 #input()
 #counter = 0
 for l in plaintext:
-#if it's a space, dont increment the counter and continue
+#if it's a space, don't increment the counter and continue
     if l == " ":
         continue
 #find the cipher letter by adding the key number to the location of the plaintext
